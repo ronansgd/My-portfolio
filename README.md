@@ -20,7 +20,7 @@
 *Lehrstuhl für Robotik, Künstliche Intelligenz und Echtzeitsysteme, TU München*
 
 - Developed a robot simulation based on **Unity**
-- Implemented **reinforcement learning** algorithms to solve a pick \& place task
+- Implemented **reinforcement learning** algorithms to solve a pick & place task
 - Parallelized training on **cloud infrastructure**
 
 <!-- AMF -->
@@ -51,7 +51,7 @@
  <!-- PSC -->
 
 ### Voxel Physics: Learning Physics thanks to Video Games
-*Ubisoft and Chaire Science \& Jeux vidéo, École Polytechnique*
+*Ubisoft and Chaire Science & Jeux vidéo, École Polytechnique*
 
 - Designed a **video game prototype** embedding highly original **physical phenomena**
 - Awarded **Best Collective Scientific Project 2020** by École
