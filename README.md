@@ -19,9 +19,12 @@ _[Lehrstuhl für Informationstechnische Regelung, TU München](https://www.ce.ci
 _[Lehrstuhl für Anwendungs- und Middlewaresysteme, TU München](https://www.cs.cit.tum.de/msrg/home/)_
 
 - Collaborated with Cara Dickmann & Joshua Wendland; supervised by René Schwermer
-- Focused on **wind turbine power prediction**
-- Designed several **SVM based models** optimized via **genetic algorithms**
-- Wrote a scientific report following **ACM Conference requirements**
+- Focused on short-term **wind turbine power prediction** using Engie's La Haute Borne dataset
+- Designed several models based on **Support Vector Regression**, with hyper parameters optimized via **genetic algorithms**
+- Compared the efficiency of direct wind power prediction to that of a physical model of wind turbine power based on wind speed prediction
+- Wrote a scientific report following **ACM Conference** requirements
+
+![Wind power prediction by multiple regression models](images/DAISE/wind_power_prediction.png)
 
 <!-- CMLR -->
 
