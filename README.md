@@ -24,7 +24,9 @@ _[Lehrstuhl für Anwendungs- und Middlewaresysteme, TU München](https://www.cs.
 - Compared the efficiency of direct wind power prediction to that of a physical model of wind turbine power based on wind speed prediction
 - Wrote a scientific report following **ACM Conference** requirements
 
-![Wind power prediction by multiple regression models](images/DAISE/wind_power_prediction.png)
+<p align="center">
+  <img src="images/DAISE/wind_power_prediction.png" height="200" align="center" />
+</p>
 
 <!-- CMLR -->
 
@@ -44,9 +46,15 @@ _[Lehrstuhl für Robotik, Künstliche Intelligenz und Echtzeitsysteme, TU Münch
 _[Autorité des Marchés Financiers](https://www.amf-france.org/en) and [CMAP, École Polytechnique](https://portail.polytechnique.edu/cmap/en)_
 
 - Collaborated with Jean-Charles Layoun; topic suggested by Erwan Le Pennec in lecture _Regression and Classification_
-- **Classified traders** within three categories using market player's behaviour variables
-- Designed a solution combining several **machine learning** techniques for time series
+- **Classified market players** between high-frequency, non high-frequency and mix traders
+- Cleaned and preprocessed **noisy trading data**
+- Designed several models based on **Gradient Boosting**, **Random Forest** and **Deep Neural Network** methods
 - Reached **1st place** among 67 teams
+
+<p align="center">
+  <img src="images/AMF-HFT/2vs1.png" height="200" align="center" />
+  <img src="images/AMF-HFT/Training_Plot.png" height="200" align="center" /> 
+</p>
 
 ## 2020
 
