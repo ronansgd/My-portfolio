@@ -40,6 +40,11 @@ _[Lehrstuhl für Robotik, Künstliche Intelligenz und Echtzeitsysteme, TU Münch
 - Implemented and tuned an instance of **Proximal Policy Optimization**
 - Parallelized training on a **computer cluster**
 
+<p style="display: flex; justify-content: space-evenly;  align-items: center;">
+  <img src="images/cmlr/architecture.svg" height="200" />
+  <img src="images/cmlr/pick-place.gif" height="200" />
+</p>
+
 <!-- AMF -->
 
 ### Who are the High-Frequency Traders ?
