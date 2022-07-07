@@ -24,8 +24,8 @@ _[Lehrstuhl für Anwendungs- und Middlewaresysteme, TU München](https://www.cs.
 - Compared the efficiency of direct wind power prediction to that of a physical model of wind turbine power based on wind speed prediction
 - Wrote a scientific report following **ACM Conference** requirements
 
-<p align="center">
-  <img src="images/daise/wind_power_prediction.png" height="200" align="center" />
+<p  style="display: flex; justify-content: space-evenly; align-items: center;">
+  <img src="images/daise/wind_power_prediction.png" height="200" />
 </p>
 
 <!-- CMLR -->
@@ -35,9 +35,10 @@ _[Lehrstuhl für Anwendungs- und Middlewaresysteme, TU München](https://www.cs.
 _[Lehrstuhl für Robotik, Künstliche Intelligenz und Echtzeitsysteme, TU München](https://www.ce.cit.tum.de/en/air/home/)_
 
 - Collaborated with Felix Hartwig, Skander Krid & Tobias Piltz; supervised by Josip Josifovski & Florian Walter
-- Developed a robot simulation based on **Unity**
-- Implemented **reinforcement learning** algorithms to solve a pick & place task
-- Parallelized training on **cloud infrastructure**
+- Aimed to solve a **pick & place** task using **Reinforcement Learning**.
+- Developed a training environement based on a pre-existing **Unity** simulation
+- Implemented and tuned an instance of **Proximal Policy Optimization**
+- Parallelized training on a **computer cluster**
 
 <!-- AMF -->
 
@@ -51,9 +52,9 @@ _[Autorité des Marchés Financiers](https://www.amf-france.org/en) and [CMAP, �
 - Designed several models based on **Gradient Boosting**, **Random Forest** and **Deep Neural Network** methods
 - Reached **1st place** among 67 teams
 
-<p align="center">
-  <img src="images/amf-hft/2vs1.png" height="200" align="center" />
-  <img src="images/amf-hft/Training_Plot.png" height="200" align="center" /> 
+<p style="display: flex; justify-content: space-evenly;  align-items: center;">
+  <img src="images/amf-hft/2vs1.png" height="200" />
+  <img src="images/amf-hft/Training_Plot.png" height="200" /> 
 </p>
 
 ## 2020
@@ -70,9 +71,9 @@ _[Data Science and Mining group, École Polytechnique](http://www.lix.polytechni
 - Used pre-trained **BERT** to encode tweet texts and perform **sentiment analysis**
 - Trained a **dense neural network** to predict the number of retweets
 
-<p align="center">
-  <img src="images/covid-rt/correlation_matrix.png" height="200" align="center"/>
-  <img src="images/covid-rt/dense_NN_archi.png" height="200" align="center"/> 
+<p style="display: flex; justify-content: space-evenly; align-items: center;">
+  <img src="images/covid-rt/correlation_matrix.png" height="200"/>
+  <img src="images/covid-rt/dense_NN_archi.png" height="200"/> 
 </p>
 
 <!-- Covid 19 Modal -->
