@@ -25,7 +25,7 @@ _[Lehrstuhl für Anwendungs- und Middlewaresysteme, TU München](https://www.cs.
 - Wrote a scientific report following **ACM Conference** requirements
 
 <p align="center">
-  <img src="images/DAISE/wind_power_prediction.png" height="200" align="center" />
+  <img src="images/daise/wind_power_prediction.png" height="200" align="center" />
 </p>
 
 <!-- CMLR -->
@@ -52,8 +52,8 @@ _[Autorité des Marchés Financiers](https://www.amf-france.org/en) and [CMAP, �
 - Reached **1st place** among 67 teams
 
 <p align="center">
-  <img src="images/AMF-HFT/2vs1.png" height="200" align="center" />
-  <img src="images/AMF-HFT/Training_Plot.png" height="200" align="center" /> 
+  <img src="images/amf-hft/2vs1.png" height="200" align="center" />
+  <img src="images/amf-hft/Training_Plot.png" height="200" align="center" /> 
 </p>
 
 ## 2020
@@ -65,8 +65,15 @@ _[Autorité des Marchés Financiers](https://www.amf-france.org/en) and [CMAP, �
 _[Data Science and Mining group, École Polytechnique](http://www.lix.polytechnique.fr/dascim/)_
 
 - Collaborated with Jean-Charles Layoun & Antonin Vidon; topic suggested by Michalis Varzirgiannis in lecture _Machine and Deep Learning_
-- Predicted the **number of retweets** a tweet dealing with the pandemic will get
-- Used **natural language processing** and **deep learning** methods to build a predictor
+- Aimed to predict the **number of retweets** of tweets dealing with the Covid pandemic
+- Cleaned and preprocessed noisy tweet metadata
+- Used pre-trained **BERT** to encode tweet texts and perform **sentiment analysis**
+- Trained a **dense neural network** to predict the number of retweets
+
+<p align="center">
+  <img src="images/covid-rt/correlation_matrix.png" height="200" align="center"/>
+  <img src="images/covid-rt/dense_NN_archi.png" height="200" align="center"/> 
+</p>
 
 <!-- Covid 19 Modal -->
 
