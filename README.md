@@ -9,6 +9,7 @@
   }
   .pic {
     height: 200px;
+    padding: 0px;
     border-radius: 1%;
   }
 </style>
