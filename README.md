@@ -7,8 +7,9 @@
 _[Lehrstuhl für Informationstechnische Regelung, TU München](https://www.ce.cit.tum.de/en/itr/home/)_
 
 - Supervised by Samuel Tesfazgi
-- Modelling cost functions of **inverse reinforcement learning** experiments
-- Ensuring convergence of **kernel** and **neural network** models using **PAC bounds**
+- Learning implicit cost functions of manipulation experiments following **inverse reinforcement learning** principles
+- Assuming the cost function to be a **Lyapunov function** thanks to the converse Lyapunov theorem
+- Certifying generalization of **kernel** and **neural network** models using **PAC bounds**
 
 ## 2021
 
