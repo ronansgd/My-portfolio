@@ -1,16 +1,31 @@
 <!-- CSS styles -->
 <style>
-  .pic-container {
+  .pic-row {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
     margin-top: 15px;
     margin-bottom: 20px;
   }
+  .pic-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
   .pic {
     height: 200px;
     padding: 0px;
+    margin: 0px;
     border-radius: 1%;
+  }
+  .caption {
+    margin: 0px;
+    margin-top: 8px;
+    padding: 0px;
+    font-style: italic;
+    text-align: center;
+    font-size: small;
   }
 </style>
 
@@ -41,7 +56,7 @@ _[Lehrstuhl für Anwendungs- und Middlewaresysteme, TU München](https://www.cs.
 - Compared the efficiency of direct wind power prediction to that of a physical model of wind turbine power based on wind speed prediction
 - Wrote a scientific report following **ACM Conference** requirements
 
-<div  class="pic-container">
+<div  class="pic-row">
   <img src="images/daise/wind_power_prediction.png" class="pic" />
 </div>
 
@@ -57,7 +72,7 @@ _[Lehrstuhl für Robotik, Künstliche Intelligenz und Echtzeitsysteme, TU Münch
 - Implemented and tuned an instance of **Proximal Policy Optimization**
 - Parallelized training on a **computer cluster**
 
-<div class="pic-container">
+<div class="pic-row">
   <img src="images/cmlr/architecture.svg" class="pic"/>
   <img src="images/cmlr/pick-place.gif" class="pic"/>
 </div>
@@ -74,15 +89,15 @@ _[Autorité des Marchés Financiers](https://www.amf-france.org/en) and [CMAP, �
 - Designed several models based on **Gradient Boosting**, **Random Forest** and **Deep Neural Network** methods
 - Reached **1st place** among 67 teams
 
-<div class="pic-container">
-  <figure style="display: inline-block;">
+<div class="pic-row">
+  <div class="pic-container">
     <img src="images/amf-hft/2vs1.png" class="pic"/>
-    <figcaption style="font-style: italic;">PCA shows a non-HFT free zone, <br> while Mix and HFT interleave</figcaption>
-  </figure> 
-  <figure style="display: inline-block;">
+     <p class="caption">PCA shows a non-HFT free zone, <br> while Mix and HFT interleave</p>
+  </div>
+  <div class="pic-container">
     <img src="images/amf-hft/Training_Plot.png" class="pic"/> 
-    <figcaption style="font-style: italic;">Learning curves of the deep neural network;<br> validation is done on future data </figcaption>
-  </figure>
+    <p class="caption">Learning curves of the deep neural network;<br> validation is done on future data </p>
+  </div>
 </div>
 
 ## 2020
@@ -99,7 +114,7 @@ _[Data Science and Mining group, École Polytechnique](http://www.lix.polytechni
 - Used pre-trained **BERT** to encode tweet texts and perform **sentiment analysis**
 - Trained a **dense neural network** to predict the number of retweets
 
-<div class="pic-container">
+<div class="pic-row">
   <figure style="display: inline-block;">
     <img src="images/covid-rt/correlation_matrix.png" class="pic"/>
     <!-- <figcaption style="font-style: italic;">PCA shows a non-HFT free zone, <br> while Mix and HFT interleave</figcaption> -->
@@ -122,7 +137,7 @@ _[CEDAR: Rich Data Exploration at Cloud Scale, Inria Saclay](https://team.inria.
 - Clustered word nodes thanks to the software **Gephi** and computed **sentiment and objectivity scores**
 - Identified and analyzed **meaningful clusters**
 
-<div class="pic-container">
+<div class="pic-row">
   <img src="images/covid-graph/color-clusters.png" class="pic"/>
   <img src="images/covid-graph/pagerank-coefficient.png" class="pic"/> 
 </div>
@@ -141,7 +156,7 @@ _[Ubisoft](https://www.ubisoft.com/en-us/) and [Chaire Science & Jeux vidéo, É
 - Awarded **Best Collective Scientific Project 2020** by École
   Polytechnique's jury
 
-<div class="pic-container">
+<div class="pic-row">
   <video height="250" controls>
     <source src="images/psc-voxels/video_12_methode_du_polytechnicien.mp4" type="video/mp4">
   </video>
@@ -160,7 +175,7 @@ _[Classe MP\*, Collège Stanislas](https://www.stanislas.fr/presentation-des-fil
 - Designed a basic **simulation** of the move of a sailboat equipped with hydrofoils
 - Compared simulational results with a **reduced-scale experiment**
 
-<div class="pic-container">
+<div class="pic-row">
   <video height="250" controls>
     <source src="images/hydrofoil/dragged_foiler.mp4" type="video/mp4">
   </video>
