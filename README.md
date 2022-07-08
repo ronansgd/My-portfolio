@@ -111,6 +111,10 @@ _[Ubisoft](https://www.ubisoft.com/en-us/) and [Chaire Science & Jeux vidéo, É
 - Awarded **Best Collective Scientific Project 2020** by École
   Polytechnique's jury
 
+<video width="320" height="240" controls>
+  <source src="images/psc-voxels/video_12_methode_du_polytechnicien.mp4" type="video/mp4">
+</video>
+
 ## 2018
 
  <!-- TIPE -->
