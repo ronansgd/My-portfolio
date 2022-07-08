@@ -58,7 +58,8 @@ _[Autorité des Marchés Financiers](https://www.amf-france.org/en) and [CMAP, �
 - Designed several models based on **Gradient Boosting**, **Random Forest** and **Deep Neural Network** methods
 - Reached **1st place** among 67 teams
 
-<div style="display: flex; justify-content: space-evenly;  align-items: flex-start;">
+<div style="display: flex; justify-content: space-evenly;  align-items: flex-start; margin-top: 15px;
+  margin-bottom: 20px;">
   <figure style="display: inline-block;">
     <img src="images/amf-hft/2vs1.png" height="200" />
     <figcaption style="font-style: italic;">PCA shows a non-HFT free zone, <br> while Mix and HFT interleave</figcaption>
