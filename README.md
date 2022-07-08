@@ -126,7 +126,13 @@ _[Ubisoft](https://www.ubisoft.com/en-us/) and [Chaire Science & Jeux vidéo, É
 
 _[Classe MP\*, Collège Stanislas](https://www.stanislas.fr/presentation-des-filieres-de-la-prepa-de-stanislas)_
 
-- Collaborated with Charles Galdin
+- Collaborated with Charles Galdin; supervised by Philippe Desportes
 - Conducted a **literature review** of hydrofoil models
-- Designed a **simulation** of the move of a sailboat equipped with hydrofoils
-- Compared simulational results with a **small-scale experiment**
+- Designed a basic **simulation** of the move of a sailboat equipped with hydrofoils
+- Compared simulational results with a **reduced-scale experiment**
+
+<p style="display: flex; justify-content: space-evenly; align-items: center;">
+  <video height="250" controls>
+    <source src="images/hydrofoil/dragged_foiler.mp4" type="video/mp4">
+  </video>
+</p>
