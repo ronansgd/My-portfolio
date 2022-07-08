@@ -107,13 +107,16 @@ _[CEDAR: Rich Data Exploration at Cloud Scale, Inria Saclay](https://team.inria.
 _[Ubisoft](https://www.ubisoft.com/en-us/) and [Chaire Science & Jeux vidéo, École Polytechnique](https://sciencexgames.fr/)_
 
 - Collaborated with Honoré Bouy, Paul Calot, Jean-Charles Layoun & Antonin Vidon; supervised by Raphaël Granier de Cassagnac & David Louapre
-- Designed a **video game prototype** embedding highly original **physical phenomena**
+- Designed a **video game prototype** embedding highly original **physical phenomena** such as heat propagation and corrosion
+- Encouraged players to discover **phenomenal interactions** to design efficient strategies
 - Awarded **Best Collective Scientific Project 2020** by École
   Polytechnique's jury
 
-<video width="320" height="240" controls>
-  <source src="images/psc-voxels/video_12_methode_du_polytechnicien.mp4" type="video/mp4">
-</video>
+<p style="display: flex; justify-content: space-evenly; align-items: center;">
+  <video height="250" controls>
+    <source src="images/psc-voxels/video_12_methode_du_polytechnicien.mp4" type="video/mp4">
+  </video>
+</p>
 
 ## 2018
 
