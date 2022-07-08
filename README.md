@@ -1,3 +1,18 @@
+<!-- CSS styles -->
+<style>
+  .pic-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .pic {
+    height: 200px;
+    border-radius: 1%;
+  }
+</style>
+
 ## 2022
 
 <!-- IDP -->
@@ -25,9 +40,9 @@ _[Lehrstuhl für Anwendungs- und Middlewaresysteme, TU München](https://www.cs.
 - Compared the efficiency of direct wind power prediction to that of a physical model of wind turbine power based on wind speed prediction
 - Wrote a scientific report following **ACM Conference** requirements
 
-<p  style="display: flex; justify-content: space-evenly; align-items: center;">
-  <img src="images/daise/wind_power_prediction.png" height="200" />
-</p>
+<div  class="pic-container">
+  <img src="images/daise/wind_power_prediction.png" class="pic" />
+</div>
 
 <!-- CMLR -->
 
@@ -41,10 +56,10 @@ _[Lehrstuhl für Robotik, Künstliche Intelligenz und Echtzeitsysteme, TU Münch
 - Implemented and tuned an instance of **Proximal Policy Optimization**
 - Parallelized training on a **computer cluster**
 
-<p style="display: flex; justify-content: space-evenly;  align-items: center;">
-  <img src="images/cmlr/architecture.svg" height="200" />
-  <img src="images/cmlr/pick-place.gif" height="200" />
-</p>
+<div class="pic-container">
+  <img src="images/cmlr/architecture.svg" class="pic"/>
+  <img src="images/cmlr/pick-place.gif" class="pic"/>
+</div>
 
 <!-- AMF -->
 
@@ -58,14 +73,13 @@ _[Autorité des Marchés Financiers](https://www.amf-france.org/en) and [CMAP, �
 - Designed several models based on **Gradient Boosting**, **Random Forest** and **Deep Neural Network** methods
 - Reached **1st place** among 67 teams
 
-<div style="display: flex; justify-content: space-evenly;  align-items: flex-start; margin-top: 15px;
-  margin-bottom: 20px;">
+<div class="pic-container">
   <figure style="display: inline-block;">
-    <img src="images/amf-hft/2vs1.png" height="200" />
+    <img src="images/amf-hft/2vs1.png" class="pic"/>
     <figcaption style="font-style: italic;">PCA shows a non-HFT free zone, <br> while Mix and HFT interleave</figcaption>
   </figure> 
   <figure style="display: inline-block;">
-    <img src="images/amf-hft/Training_Plot.png" height="200" /> 
+    <img src="images/amf-hft/Training_Plot.png" class="pic"/> 
     <figcaption style="font-style: italic;">Learning curves of the deep neural network;<br> validation is done on future data </figcaption>
   </figure>
 </div>
@@ -84,10 +98,16 @@ _[Data Science and Mining group, École Polytechnique](http://www.lix.polytechni
 - Used pre-trained **BERT** to encode tweet texts and perform **sentiment analysis**
 - Trained a **dense neural network** to predict the number of retweets
 
-<p style="display: flex; justify-content: space-evenly; align-items: center;">
-  <img src="images/covid-rt/correlation_matrix.png" height="200"/>
-  <img src="images/covid-rt/dense_NN_archi.png" height="200"/> 
-</p>
+<div class="pic-container">
+  <figure style="display: inline-block;">
+    <img src="images/covid-rt/correlation_matrix.png" class="pic"/>
+    <!-- <figcaption style="font-style: italic;">PCA shows a non-HFT free zone, <br> while Mix and HFT interleave</figcaption> -->
+  </figure>
+  <figure style="display: inline-block;">
+    <img src="images/covid-rt/dense_NN_archi.png" class="pic"/> 
+    <!-- <figcaption style="font-style: italic;">Learning curves of the deep neural network;<br> validation is done on future data </figcaption> -->
+  </figure>
+</div>
 
 <!-- Covid 19 Modal -->
 
@@ -101,10 +121,10 @@ _[CEDAR: Rich Data Exploration at Cloud Scale, Inria Saclay](https://team.inria.
 - Clustered word nodes thanks to the software **Gephi** and computed **sentiment and objectivity scores**
 - Identified and analyzed **meaningful clusters**
 
-<p style="display: flex; justify-content: space-evenly; align-items: center;">
-  <img src="images/covid-graph/color-clusters.png" height="200"/>
-  <img src="images/covid-graph/pagerank-coefficient.png" height="200"/> 
-</p>
+<div class="pic-container">
+  <img src="images/covid-graph/color-clusters.png" class="pic"/>
+  <img src="images/covid-graph/pagerank-coefficient.png" class="pic"/> 
+</div>
 
 ## 2019
 
@@ -120,11 +140,11 @@ _[Ubisoft](https://www.ubisoft.com/en-us/) and [Chaire Science & Jeux vidéo, É
 - Awarded **Best Collective Scientific Project 2020** by École
   Polytechnique's jury
 
-<p style="display: flex; justify-content: space-evenly; align-items: center;">
+<div class="pic-container">
   <video height="250" controls>
     <source src="images/psc-voxels/video_12_methode_du_polytechnicien.mp4" type="video/mp4">
   </video>
-</p>
+</div>
 
 ## 2018
 
@@ -139,8 +159,8 @@ _[Classe MP\*, Collège Stanislas](https://www.stanislas.fr/presentation-des-fil
 - Designed a basic **simulation** of the move of a sailboat equipped with hydrofoils
 - Compared simulational results with a **reduced-scale experiment**
 
-<p style="display: flex; justify-content: space-evenly; align-items: center;">
+<div class="pic-container">
   <video height="250" controls>
     <source src="images/hydrofoil/dragged_foiler.mp4" type="video/mp4">
   </video>
-</p>
+</div>
