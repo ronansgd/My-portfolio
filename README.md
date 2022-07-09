@@ -17,12 +17,14 @@
     height: 200px;
     padding: 0px;
     margin: 0px;
-    border-radius: 1%;
+    /* border */
+    border-radius: 2%;
+    border-style: solid;
+    border-color: #2a2a2a;
+    border-width: 1px;
   }
   .caption {
-    margin: 0px;
     margin-top: 8px;
-    padding: 0px;
     font-style: italic;
     text-align: center;
     font-size: small;
@@ -92,11 +94,11 @@ _[Autorité des Marchés Financiers](https://www.amf-france.org/en) and [CMAP, �
 <div class="pic-row">
   <div class="pic-container">
     <img src="images/amf-hft/2vs1.png" class="pic"/>
-     <p class="caption">PCA shows a non-HFT free zone, <br> while Mix and HFT interleave</p>
+     <div class="caption">PCA shows a non-HFT free zone, <br> while Mix and HFT interleave</div>
   </div>
   <div class="pic-container">
     <img src="images/amf-hft/Training_Plot.png" class="pic"/> 
-    <p class="caption">Learning curves of the deep neural network;<br> validation is done on future data </p>
+    <div class="caption">Learning curves of the deep neural network;<br> validation is done on future data </div>
   </div>
 </div>
 
@@ -115,14 +117,14 @@ _[Data Science and Mining group, École Polytechnique](http://www.lix.polytechni
 - Trained a **dense neural network** to predict the number of retweets
 
 <div class="pic-row">
-  <figure style="display: inline-block;">
+  <div class="pic-container">
     <img src="images/covid-rt/correlation_matrix.png" class="pic"/>
     <!-- <figcaption style="font-style: italic;">PCA shows a non-HFT free zone, <br> while Mix and HFT interleave</figcaption> -->
-  </figure>
-  <figure style="display: inline-block;">
+  </div>
+  <div class="pic-container">
     <img src="images/covid-rt/dense_NN_archi.png" class="pic"/> 
     <!-- <figcaption style="font-style: italic;">Learning curves of the deep neural network;<br> validation is done on future data </figcaption> -->
-  </figure>
+  </div>
 </div>
 
 <!-- Covid 19 Modal -->
