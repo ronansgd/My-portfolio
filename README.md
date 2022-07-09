@@ -19,9 +19,7 @@
     margin: 0px;
     /* border */
     border-radius: 1%;
-    /* border-style: solid;
     border-color: #CFCFCF;
-    border-width: 1px; */
   }
   .video {
     height: 250px;
