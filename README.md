@@ -88,7 +88,7 @@ _[Lehrstuhl für Robotik, Künstliche Intelligenz und Echtzeitsysteme, TU Münch
   </div>
   <div class="pic-container">
     <img src="images/cmlr/pick-place.gif" class="pic"/>
-    <div class="caption"> Reach & pick demonstration </div>
+    <div class="caption"> Trained Reach & Pick demonstrator</div>
   </div>
 </div>
 
