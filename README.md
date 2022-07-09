@@ -18,10 +18,10 @@
     padding: 0px;
     margin: 0px;
     /* border */
-    border-radius: 2%;
+    border-radius: 1%;
     border-style: solid;
-    border-color: #2a2a2a;
-    border-width: 1px;
+    border-color: #363636;
+    border-width: 2px;
   }
   .caption {
     margin-top: 8px;
