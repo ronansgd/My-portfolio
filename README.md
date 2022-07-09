@@ -19,9 +19,9 @@
     margin: 0px;
     /* border */
     border-radius: 1%;
-    border-style: solid;
-    border-color: #363636;
-    border-width: 2px;
+    /* border-style: solid;
+    border-color: #CFCFCF;
+    border-width: 1px; */
   }
   .caption {
     margin-top: 8px;
