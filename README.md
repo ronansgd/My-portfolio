@@ -10,7 +10,7 @@
   .pic-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
   }
   .pic {
@@ -22,6 +22,10 @@
     /* border-style: solid;
     border-color: #CFCFCF;
     border-width: 1px; */
+  }
+  .video {
+    height: 250px;
+    border-radius: 1%;
   }
   .caption {
     margin-top: 8px;
@@ -59,7 +63,10 @@ _[Lehrstuhl für Anwendungs- und Middlewaresysteme, TU München](https://www.cs.
 - Wrote a scientific report following **ACM Conference** requirements
 
 <div  class="pic-row">
-  <img src="images/daise/wind_power_prediction.png" class="pic" />
+  <div class="pic-container">
+    <img src="images/daise/wind_power_prediction.png" class="pic" />
+    <div class="caption"> The predictions of the two models compared to the ground truth</div>
+  </div>
 </div>
 
 <!-- CMLR -->
@@ -75,8 +82,14 @@ _[Lehrstuhl für Robotik, Künstliche Intelligenz und Echtzeitsysteme, TU Münch
 - Parallelized training on a **computer cluster**
 
 <div class="pic-row">
-  <img src="images/cmlr/architecture.svg" class="pic"/>
-  <img src="images/cmlr/pick-place.gif" class="pic"/>
+  <div class="pic-container">
+    <img src="images/cmlr/architecture.svg" class="pic"/>
+    <div class="caption"> The functionalities are split among the Simulation <br> and the Reinforcement Learning containers</div>
+  </div>
+  <div class="pic-container">
+    <img src="images/cmlr/pick-place.gif" class="pic"/>
+    <div class="caption"> Reach & pick demonstration </div>
+  </div>
 </div>
 
 <!-- AMF -->
@@ -119,11 +132,11 @@ _[Data Science and Mining group, École Polytechnique](http://www.lix.polytechni
 <div class="pic-row">
   <div class="pic-container">
     <img src="images/covid-rt/correlation_matrix.png" class="pic"/>
-    <!-- <figcaption style="font-style: italic;">PCA shows a non-HFT free zone, <br> while Mix and HFT interleave</figcaption> -->
+    <div class="caption"> Correlation of tweet metadata </div>
   </div>
   <div class="pic-container">
     <img src="images/covid-rt/dense_NN_archi.png" class="pic"/> 
-    <!-- <figcaption style="font-style: italic;">Learning curves of the deep neural network;<br> validation is done on future data </figcaption> -->
+    <div class="caption"> Final architecture of the dense network</div>
   </div>
 </div>
 
@@ -140,8 +153,14 @@ _[CEDAR: Rich Data Exploration at Cloud Scale, Inria Saclay](https://team.inria.
 - Identified and analyzed **meaningful clusters**
 
 <div class="pic-row">
-  <img src="images/covid-graph/color-clusters.png" class="pic"/>
-  <img src="images/covid-graph/pagerank-coefficient.png" class="pic"/> 
+  <div class="pic-container">
+    <img src="images/covid-graph/color-clusters.png" class="pic"/>
+    <div class="caption"> 4 main clusters are identified: Debate,<br>Community, News and Lifestyle</div>
+  </div>
+  <div class="pic-container">
+    <img src="images/covid-graph/pagerank-coefficient.png" class="pic"/> 
+    <div class="caption"> The centrality and rank of each<br>word is measured</div>
+  </div>
 </div>
 
 ## 2019
@@ -159,9 +178,12 @@ _[Ubisoft](https://www.ubisoft.com/en-us/) and [Chaire Science & Jeux vidéo, É
   Polytechnique's jury
 
 <div class="pic-row">
-  <video height="250" controls>
-    <source src="images/psc-voxels/video_12_methode_du_polytechnicien.mp4" type="video/mp4">
-  </video>
+  <div class="pic-container">
+    <video class="video" controls>
+      <source src="images/psc-voxels/video_12_methode_du_polytechnicien.mp4" type="video/mp4">
+    </video>
+    <div class="caption"> A strategy combining efficiently all available physical phenomena </div>
+  </div>
 </div>
 
 ## 2018
@@ -178,7 +200,10 @@ _[Classe MP\*, Collège Stanislas](https://www.stanislas.fr/presentation-des-fil
 - Compared simulational results with a **reduced-scale experiment**
 
 <div class="pic-row">
-  <video height="250" controls>
-    <source src="images/hydrofoil/dragged_foiler.mp4" type="video/mp4">
-  </video>
+  <div class="pic-container">
+    <video class="video" controls>
+      <source src="images/hydrofoil/dragged_foiler.mp4" type="video/mp4">
+    </video>
+    <div class="caption"> The experiment allowed to compare the energetic efficiency<br>of the archimedian boat to that of the foiler</div>
+  </div>
 </div>
