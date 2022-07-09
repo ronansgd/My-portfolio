@@ -31,6 +31,22 @@
     text-align: center;
     font-size: small;
   }
+  /* specific styles */
+  .robust_stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; height: 200px;
+  }
+  .robust_pic {
+    height: 97px;
+    padding: 0px;
+    margin: 0px;
+    padding-right:5px;
+    background-color: white;
+    border-radius: 1%;
+    border-color: #CFCFCF;
+  }
 </style>
 
 ## 2022
@@ -46,6 +62,29 @@ _[Lehrstuhl für Informationstechnische Regelung, TU München](https://www.ce.ci
 - Assuming the cost function to be a **Lyapunov function** thanks to the converse Lyapunov theorem
 - Certifying generalization of **kernel** and **neural network** models using **PAC bounds**
 
+### Robustness of Machine Learning Models
+
+_[Data Analytics and Machine Learning Group, TU München](https://www.cs.cit.tum.de/daml/startseite/)_
+
+- Topic offered by Stephan Günnemann in lecture _Machine Learning for Graphs and Sequential Data_
+- Carried out **adversarial attacks** on a neural network trained on MNIST dataset
+- Trained a **robust neural network** with improved resistance to perturbations
+- Provided **theoretical guarantees** on the robustness gain
+
+<div class="pic-row">
+  <div class="pic-container">
+    <img src="images/robustness/accuracy.png" class="pic"/>
+    <div class="caption"> A CNN network is trained and reaches<br>92% accuracy on the validation set</div>
+  </div>
+  <div class="pic-container">
+    <div class="robust_stack">
+      <img class="robust_pic" src="images/robustness/adversarial_attack_1.png" />
+      <img class="robust_pic" src="images/robustness/adversarial_attack_2.png" />
+    </div>
+    <div class="caption">A small perturbation misleads<br>the trained model</div>
+  </div>
+</div>
+
 ## 2021
 
 <!-- DAISE -->
@@ -56,7 +95,7 @@ _[Lehrstuhl für Anwendungs- und Middlewaresysteme, TU München](https://www.cs.
 
 - Collaborated with Cara Dickmann & Joshua Wendland; supervised by René Schwermer
 - Focused on short-term **wind turbine power prediction** using Engie's La Haute Borne dataset
-- Designed several models based on **Support Vector Regression**, with hyper parameters optimized via **genetic algorithms**
+- Designed several models based on **support vector regression**, with hyper parameters optimized via a **genetic algorithm**
 - Compared the efficiency of direct wind power prediction to that of a physical model of wind turbine power based on wind speed prediction
 - Wrote a scientific report following **ACM Conference** requirements
 
@@ -96,7 +135,7 @@ _[Lehrstuhl für Robotik, Künstliche Intelligenz und Echtzeitsysteme, TU Münch
 
 _[Autorité des Marchés Financiers](https://www.amf-france.org/en) and [CMAP, École Polytechnique](https://portail.polytechnique.edu/cmap/en)_
 
-- Collaborated with Jean-Charles Layoun; topic suggested by Erwan Le Pennec in lecture _Regression and Classification_
+- Collaborated with Jean-Charles Layoun; topic offered by Erwan Le Pennec in lecture _Regression and Classification_
 - **Classified market players** between high-frequency, non high-frequency and mix traders
 - Cleaned and preprocessed **noisy trading data**
 - Designed several models based on **Gradient Boosting**, **Random Forest** and **Deep Neural Network** methods
@@ -121,7 +160,7 @@ _[Autorité des Marchés Financiers](https://www.amf-france.org/en) and [CMAP, �
 
 _[Data Science and Mining group, École Polytechnique](http://www.lix.polytechnique.fr/dascim/)_
 
-- Collaborated with Jean-Charles Layoun & Antonin Vidon; topic suggested by Michalis Varzirgiannis in lecture _Machine and Deep Learning_
+- Collaborated with Jean-Charles Layoun & Antonin Vidon; topic offered by Michalis Varzirgiannis in lecture _Machine and Deep Learning_
 - Aimed to predict the **number of retweets** of tweets dealing with the Covid pandemic
 - Cleaned and preprocessed noisy tweet metadata
 - Used pre-trained **BERT** to encode tweet texts and perform **sentiment analysis**
