@@ -36,7 +36,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start; height: 200px;
+    align-items: flex-start; 
+    height: 200px;
+    border-radius: 1%;
   }
   .robust_pic {
     height: 97px;
