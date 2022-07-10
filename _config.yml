@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
-title: Project Portfolio - Ronan Sangouard
-description: Illustrated description of my main projects (WIP)
+title: Ronan Sangouard's portfolio
+description: An overview of my main projects
+github:
+  is_project_page: false
