@@ -51,6 +51,27 @@
   }
 </style>
 
+## 2023
+
+<!-- BMW internship -->
+
+### Computer Vision for DC Partial Discharge Diagnostics in Traction Battery Systems
+
+_[Battery Cell Competence Center, BMW AG](https://www.bmwgroup.com/en/general/approach-battery-cell-competence-centre.html)_
+
+- Supervised by Ivo Freudenberg and Maximilian Kertel
+- Designed a proof of concept for **fast detection & classification** of insulation faults in **battery cells**
+- Converted temporal voltage data into **phase resolved partial discharge** plots
+- Compared the efficiency of several algorithms including **Support Vector Machine**, **Random Forest** and **Convolutional Neural Networks**
+
+<div  class="pic-row">
+  <div class="pic-container">
+    <img src="images/bmw-prpd/predicted_pylone_true_pylone_explanation_hoecker.png" class="pic" />
+    <div class="caption"> The coherence of the predictions made by the models was evaluated using the explainable AI technique LIME </div>
+  </div>
+</div>
+
+
 ## 2022
 
 <!-- IDP -->
@@ -60,9 +81,9 @@
 _[Lehrstuhl für Informationstechnische Regelung, TU München](https://www.ce.cit.tum.de/en/itr/home/)_
 
 - Supervised by Samuel Tesfazgi
-- Learning implicit cost functions of manipulation experiments following **inverse reinforcement learning** principles
-- Assuming the cost function to be a **Lyapunov function** thanks to the converse Lyapunov theorem
-- Certifying generalization of **kernel** and **neural network** models using **PAC bounds**
+- Learnt implicit cost functions of manipulation experiments following **inverse reinforcement learning** principles
+- Assumed the cost function to be a **Lyapunov function** thanks to the converse Lyapunov theorem
+- Certified generalization of **kernel** and **neural network** models using **PAC bounds**
 
 ### Robustness of Machine Learning Models
 
