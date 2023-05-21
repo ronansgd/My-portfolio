@@ -53,6 +53,17 @@
 
 ## 2023
 
+<!-- Master Thesis -->
+
+### Attention Mechanism in Neuromorphic Vision
+
+_[Neuromorphic Computing Team, Fortiss](https://www.fortiss.org/en/research/fields-of-research/detail/neuromorphic-computing)_
+
+- Supervised by Evan Eames
+- Designing an **attention-based** vision pipeline for robotic control
+- Implementing **spiking neural networks** on the neuromophic chip **Loihi 2**
+- Evaluating the pipeline on a **Kuka** arm simulated in **MuJoCo**
+
 <!-- BMW internship -->
 
 ### Computer Vision for DC Partial Discharge Diagnostics in Traction Battery Systems
