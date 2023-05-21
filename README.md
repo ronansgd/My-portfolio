@@ -82,8 +82,19 @@ _[Lehrstuhl für Informationstechnische Regelung, TU München](https://www.ce.ci
 
 - Supervised by Samuel Tesfazgi
 - Learnt implicit cost functions of manipulation experiments following **inverse reinforcement learning** principles
-- Assumed the cost function to be a **Lyapunov function** thanks to the converse Lyapunov theorem
-- Certified generalization of **kernel** and **neural network** models using **PAC bounds**
+- Certified the stability of the learnt cost functions using **Lyapunov theory** and **PAC bounds**
+- Implemented cost functions based on **RKHS** and **neural network** models.
+
+<div class="pic-row">
+  <div class="pic-container">
+    <img src="images/idp/learnt_value_function.png" class="pic"/>
+    <div class="caption"> An example of learnt cost function </div>
+  </div>
+  <div class="pic-container">
+    <img src="images/idp/generalized_policy.png" class="pic"/> 
+    <div class="caption"> Learnt cost functions allow to generalize demonstration data </div>
+  </div>
+</div>
 
 ### Robustness of Machine Learning Models
 
