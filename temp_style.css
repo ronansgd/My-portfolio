@@ -1,4 +1,21 @@
+body {
+    margin: 0;
+}
+
 .page-header {
+    border-bottom: 1px solid red;
+    background-color: #fff;
+    opacity: 0.95;
+    color: #000;
+    /* Set your desired text color */
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /* Set a z-index value to ensure the header appears above other content */
+}
+
+.header-nav {
     position: relative;
     width: 800px;
     margin: auto;
@@ -8,10 +25,21 @@
     align-items: center;
 }
 
+.header-line {
+    height: 1px;
+    width: 100%;
+
+}
+
 .main-content {
     width: 800px;
     margin: auto;
 }
+
+/* main {
+    position: relative;
+    background: black;
+} */
 
 p {
     text-align: justify;
