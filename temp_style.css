@@ -1,6 +1,6 @@
 /* variables */
 :root {
-    --width-large: 800px;
+    --width-large: 750px;
 
     /* colors */
     --link-blue: hsla(197, 64%, 43%, 0.877);
@@ -12,9 +12,16 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #000;
 }
 
 p {
@@ -31,6 +38,12 @@ button {
     border: none;
     text-align: right;
     cursor: pointer;
+}
+
+/* general */
+
+.font-weight-bold {
+    font-weight: 700 !important;
 }
 
 /* header */
@@ -53,7 +66,12 @@ button {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+}
+
+.header-title {
+    font-size: 1.25rem;
+    padding-bottom: 14px;
 }
 
 /* navbar */
@@ -69,7 +87,7 @@ button {
 
 .navbar-link {
     font-size: 16px;
-    padding: 20px 7px;
+    padding: 16px 8px;
     transition: color 0.25s ease;
 }
 
@@ -102,6 +120,8 @@ button {
     position: relative;
     margin: auto;
     text-align: left;
+    padding: 8px 0px;
+    font-size: 0.75rem;
 }
 
 /* main */
@@ -109,6 +129,7 @@ button {
 .main-content {
     width: var(--width-large);
     margin: auto;
+    padding-bottom: 64px;
 }
 
 /* article are not shown by default */
