@@ -2,18 +2,16 @@ body {
     margin: 0;
 }
 
-.page-header {
-    border-bottom: 1px solid red;
-    background-color: #fff;
-    opacity: 0.95;
-    color: #000;
-    /* Set your desired text color */
-
+.header-box {
     position: sticky;
     top: 0;
-    z-index: 100;
-    /* Set a z-index value to ensure the header appears above other content */
+    z-index: 10;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    opacity: 0.95;
 }
+
 
 .header-nav {
     position: relative;
@@ -23,6 +21,23 @@ body {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer-box {
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+.footer-content {
+    width: 800px;
+    position: relative;
+    margin: auto;
+    text-align: left;
 }
 
 .main-content {
