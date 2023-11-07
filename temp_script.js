@@ -9,6 +9,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
             if (articles[j].id.split('-')[0] === navPrefix) {
                 navigationLinks[j].classList.add("active")
                 articles[j].classList.add("active");
+                console.log("hello");
                 window.scrollTo(0, 0);           
             }
             else{

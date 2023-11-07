@@ -1,12 +1,20 @@
 /* variables */
 :root {
     --width-large: 800px;
+
+    /* colors */
+    --link-blue: hsla(197, 64%, 43%, 0.877);
+    --deep-link-blue: hsla(197, 66%, 28%, 0.877);
 }
 
 /* override */
 
-body {
+*,
+*::before,
+*::after {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 p {
@@ -21,7 +29,7 @@ button {
     font: inherit;
     background: none;
     border: none;
-    text-align: left;
+    text-align: right;
     cursor: pointer;
 }
 
@@ -38,7 +46,7 @@ button {
 }
 
 
-.header-nav {
+.header-content {
     position: relative;
     width: var(--width-large);
     margin: auto;
@@ -48,8 +56,33 @@ button {
     align-items: center;
 }
 
+/* navbar */
+
+.navbar-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-link {
+    font-size: 16px;
+    padding: 20px 7px;
+    transition: color 0.25s ease;
+}
+
+.navbar-link:hover {
+    color: var(--link-blue);
+}
+
 .navbar-link.active {
-    font-weight: 500;
+    color: var(--deep-link-blue);
+}
+
+.navbar-link.active:hover {
+    color: var(--deep-link-blue);
 }
 
 /* footer */
@@ -86,24 +119,4 @@ article {
 article.active {
     display: block;
     animation: fade 0.5s ease backwards;
-}
-
-.navbar-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 0 10px;
-}
-
-.navbar-link {
-    color: #232;
-    font-size: 16px;
-    padding: 20px 7px;
-    transition: color 0.25s ease;
-}
-
-.navbar-link:hover,
-.navbar-link:focus {
-    color: hsla(0, 0%, 84%, 0.7);
 }
