@@ -144,8 +144,27 @@ article.active {
 
 /* picture box */
 .pic-box {
+    /* TODO: make responsive */
+    width: 230px;
     float: right;
-    padding: 8px;
+    margin: 16px 0px 16px 16px;
+}
+
+.icon-box {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.icon-box.a:visited {
+    color: #000;
+}
+
+.icon-box.a:hover {
+    color: var(--link-blue);
 }
 
 .img-fluid {
