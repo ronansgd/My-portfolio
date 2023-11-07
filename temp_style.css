@@ -141,3 +141,22 @@ article.active {
     display: block;
     animation: fade 0.5s ease backwards;
 }
+
+/* picture box */
+.pic-box {
+    float: right;
+    padding: 8px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.z-depth-1 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.rounded {
+    border-radius: .25rem !important;
+}
