@@ -3,10 +3,17 @@
     --width-large: 800px;
 }
 
+/* override */
 
 body {
     margin: 0;
 }
+
+p {
+    text-align: justify;
+}
+
+/* header */
 
 .header-box {
     position: sticky;
@@ -29,6 +36,12 @@ body {
     align-items: center;
 }
 
+.navbar-link.active {
+    font-weight: 500;
+}
+
+/* footer */
+
 .footer-box {
     position: fixed;
     bottom: 0;
@@ -46,16 +59,19 @@ body {
     text-align: left;
 }
 
+/* main */
+
 .main-content {
     width: var(--width-large);
     margin: auto;
 }
 
-/* main {
-    position: relative;
-    background: black;
-} */
+/* article are not shown by default */
+article {
+    display: none;
+}
 
-p {
-    text-align: justify;
+article.active {
+    display: block;
+    animation: fade 0.5s ease backwards;
 }
