@@ -1,3 +1,9 @@
+/* variables */
+:root {
+    --width-large: 800px;
+}
+
+
 body {
     margin: 0;
 }
@@ -15,7 +21,7 @@ body {
 
 .header-nav {
     position: relative;
-    width: 800px;
+    width: var(--width-large);
     margin: auto;
     display: flex;
     flex-wrap: nowrap;
@@ -34,14 +40,14 @@ body {
 }
 
 .footer-content {
-    width: 800px;
+    width: var(--width-large);
     position: relative;
     margin: auto;
     text-align: left;
 }
 
 .main-content {
-    width: 800px;
+    width: var(--width-large);
     margin: auto;
 }
 
