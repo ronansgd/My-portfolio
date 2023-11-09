@@ -180,3 +180,22 @@ article.active {
 .rounded {
     border-radius: .25rem !important;
 }
+
+/* publications */
+
+.publi-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.publi-img {
+    max-width: 15%;
+    height: auto;
+    margin-right: 16px;
+}
+
+.publi-text {
+    max-width: 80%;
+}
