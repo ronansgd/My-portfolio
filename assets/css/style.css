@@ -162,6 +162,7 @@ article.active {
 .icon-link {
     color: #000;
     transition: color 0.25s ease;
+    text-decoration: none;
 }
 
 .icon-link:hover {
