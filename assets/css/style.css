@@ -175,6 +175,11 @@ article.active {
     height: auto;
 }
 
+.img-fluid-h {
+    width: auto;
+    max-height: 100%;
+}
+
 .img-stretched {
     width: 100%;
 }
