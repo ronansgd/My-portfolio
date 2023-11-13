@@ -144,10 +144,8 @@ article.active {
 
 /* picture box */
 .pic-box {
-    /* TODO: make responsive */
-    width: 230px;
-    float: right;
-    margin: 0px 0px 16px 16px;
+    width: 100%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -250,6 +248,14 @@ article.active {
 
 .publi-text {
     max-width: 80%;
+}
+
+@media (min-width: 500px) {
+    .pic-box {
+        width: 230px;
+        float: right;
+        margin: 0px 0px 16px 16px;
+    }
 }
 
 @media (min-width: 800px) {
