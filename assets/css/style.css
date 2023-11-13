@@ -1,6 +1,7 @@
 /* variables */
 :root {
-    --width-large: 750px;
+    --width-small: 90%;
+    --width-large: 720px;
 
     /* colors */
     --link-blue: hsla(197, 64%, 43%, 0.877);
@@ -61,7 +62,7 @@ button {
 
 .header-content {
     position: relative;
-    width: var(--width-large);
+    width: var(--width-small);
     margin: auto;
     display: flex;
     flex-wrap: nowrap;
@@ -115,7 +116,7 @@ button {
 }
 
 .footer-content {
-    width: var(--width-large);
+    width: var(--width-small);
     position: relative;
     margin: auto;
     text-align: left;
@@ -126,7 +127,7 @@ button {
 /* main */
 
 .main-content {
-    width: var(--width-large);
+    width: var(--width-small);
     margin: auto;
     padding-bottom: 64px;
 }
@@ -249,4 +250,18 @@ article.active {
 
 .publi-text {
     max-width: 80%;
+}
+
+@media (min-width: 800px) {
+    .footer-content {
+        width: var(--width-large);
+    }
+
+    .main-content {
+        width: var(--width-large);
+    }
+
+    .header-content {
+        width: var(--width-large);
+    }
 }
