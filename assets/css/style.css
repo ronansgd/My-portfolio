@@ -237,9 +237,9 @@ article.active {
     justify-content: center;
     margin-bottom: 8px;
     /* for debugging */
-    border: solid;
+    /* border: solid;
     border-color: aqua;
-    border-width: thick;
+    border-width: thick; */
 }
 
 /* publications */
@@ -253,7 +253,7 @@ article.active {
 }
 
 .publi-img {
-    max-width: 15%;
+    max-width: 100px;
     height: auto;
     margin-right: 16px;
 }
