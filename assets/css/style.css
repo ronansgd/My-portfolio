@@ -1,6 +1,7 @@
 /* variables */
 :root {
-    --width-large: 750px;
+    --width-small: 90%;
+    --width-large: 720px;
 
     /* colors */
     --link-blue: hsla(197, 64%, 43%, 0.877);
@@ -61,7 +62,7 @@ button {
 
 .header-content {
     position: relative;
-    width: var(--width-large);
+    width: var(--width-small);
     margin: auto;
     display: flex;
     flex-wrap: nowrap;
@@ -115,7 +116,7 @@ button {
 }
 
 .footer-content {
-    width: var(--width-large);
+    width: var(--width-small);
     position: relative;
     margin: auto;
     text-align: left;
@@ -126,7 +127,7 @@ button {
 /* main */
 
 .main-content {
-    width: var(--width-large);
+    width: var(--width-small);
     margin: auto;
     padding-bottom: 64px;
 }
@@ -143,10 +144,8 @@ article.active {
 
 /* picture box */
 .pic-box {
-    /* TODO: make responsive */
-    width: 230px;
-    float: right;
-    margin: 0px 0px 16px 16px;
+    width: 100%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -181,9 +180,19 @@ article.active {
     height: auto;
 }
 
-.img-fluid-h {
+.img-fit-h {
     width: auto;
+    height: 100%;
+}
+
+.img-fit-w {
+    height: auto;
+    width: 100%;
+}
+
+.img-constrained {
     max-height: 100%;
+    width: auto;
 }
 
 .img-stretched {
@@ -211,7 +220,7 @@ article.active {
 }
 
 .project-box {
-    width: 40%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -220,6 +229,8 @@ article.active {
 .project-img-box {
     width: 100%;
     aspect-ratio: 1.5;
+    /* To avoid overflow */
+    min-height: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -242,11 +253,41 @@ article.active {
 }
 
 .publi-img {
-    max-width: 15%;
+    max-width: 100px;
     height: auto;
     margin-right: 16px;
 }
 
 .publi-text {
     max-width: 80%;
+}
+
+/* responsive */
+
+@media (min-width: 500px) {
+    .pic-box {
+        width: 230px;
+        float: right;
+        margin: 0px 0px 16px 16px;
+    }
+}
+
+@media (min-width: 650px) {
+    .project-box {
+        width: 40%;
+    }
+}
+
+@media (min-width: 800px) {
+    .footer-content {
+        width: var(--width-large);
+    }
+
+    .main-content {
+        width: var(--width-large);
+    }
+
+    .header-content {
+        width: var(--width-large);
+    }
 }
