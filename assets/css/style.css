@@ -180,9 +180,14 @@ article.active {
     height: auto;
 }
 
-.img-fluid-h {
+.img-fit-h {
     width: auto;
-    max-height: 100%;
+    height: 100%;
+}
+
+.img-fit-w {
+    height: auto;
+    width: 100%;
 }
 
 .img-constrained {
@@ -215,7 +220,7 @@ article.active {
 }
 
 .project-box {
-    width: 40%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -257,11 +262,19 @@ article.active {
     max-width: 80%;
 }
 
+/* responsive */
+
 @media (min-width: 500px) {
     .pic-box {
         width: 230px;
         float: right;
         margin: 0px 0px 16px 16px;
+    }
+}
+
+@media (min-width: 650px) {
+    .project-box {
+        width: 40%;
     }
 }
 
