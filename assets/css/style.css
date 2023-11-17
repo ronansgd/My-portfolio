@@ -153,6 +153,7 @@ button {
 }
 
 .navbar-link {
+    color: var(--text-color);
     transition: color 0.25s ease;
     text-align: right;
     margin-top: 8px;
